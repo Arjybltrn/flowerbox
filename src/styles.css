@@ -7,3 +7,12 @@
     border: 1px solid grey;
 }
 
+
+ul {
+    list-style: none;
+}
+
+.flower-image {
+    width: 160px;
+    height: 220px;
+}
