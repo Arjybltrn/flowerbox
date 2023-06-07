@@ -4,7 +4,8 @@
     background: url("https://i.imgur.com/BrtVHqy.png");
     background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid grey;
+    border: 1px solid rosybrown;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,6 +41,11 @@ ul {
 .nav {
     grid-column: 1 / 4;
     background-color: rgb(145,178,185);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 1px rgb(255,220,224);
+    text-align: center;
+    border-radius: 5px;
 }
 
 .header {
@@ -64,31 +70,23 @@ ul {
 .card {
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rosybrown;
 }
 
 .card:hover {
-    background-color:rgb(255,220,224);
+    background-color:rgb(145,178,185);
     cursor: pointer;
 
 }
 
-
-
-
-.nav {
-    padding: 20px 0 0 69px;
-    text-align: center;
-}
-
 .nav-item {
     display: inline;
-    padding: 14px 16px;
+    padding: 14px 100px;
     color: white;
     font-weight: bolder;
 }
 .nav-item:hover {
-    color:black;
+    color:rosybrown;
 }
 
 .header {
@@ -170,7 +168,7 @@ ul {
     text-align: left;
     font-size: 12px;
     font-weight: bold;
-    color: rgb(255,220,224);
+    color: rosybrown;
     text-shadow: 0.5px 0.5px rgb(245,245,245);
     padding: 5px;
     &:hover {
@@ -179,7 +177,7 @@ ul {
 }
 
 li:hover {
-    color: rgb(255,220,224);
+    color: rosybrown;
 }
 
 .cs , .info {
