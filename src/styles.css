@@ -1,9 +1,8 @@
 .header {
     background: url("https://i.imgur.com/BrtVHqy.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-    width: 100%;
     border: 1px solid grey;
 }
 
@@ -31,7 +30,7 @@ ul {
 
 .nav {
     grid-column: 1 / 4;
-    display:inline;
+    background-color: rgb(145,178,185);
 }
 
 .header {
@@ -53,4 +52,20 @@ ul {
     border: solid 1px grey;
     padding: 10px;
     margin: 10px;
+}
+
+
+.nav {
+    padding: 20px 0 0 69px;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline;
+    padding: 14px 16px;
+    color: white;
+    font-weight: bolder;
+}
+.nav-item:hover {
+    color:black;
 }

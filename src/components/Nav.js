@@ -5,11 +5,11 @@ function Nav() {
   return (
     <div className='nav'>
         <ul>
-            <li>about</li>
-            <li>collections</li>
-            <li>delivery service</li>
-            <li>location</li>
-            <li>contact us</li>
+            <li className='nav-item'>about</li>
+            <li className='nav-item'>collections</li>
+            <li className='nav-item'>delivery service</li>
+            <li className='nav-item'>location</li>
+            <li className='nav-item'>contact us</li>
         </ul>
     </div>
   )
