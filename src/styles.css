@@ -30,6 +30,7 @@ ul {
     padding-left: 100px;
     padding-right: 100px;
     background-color: rgb(245,245,245) ;
+    font-family: 'Open Sans', sans-serif;
     
 }
 
@@ -71,6 +72,8 @@ ul {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rosybrown;
+    color: rgb(145,178,185);
+    font-weight: 600;
 }
 
 .card:hover {

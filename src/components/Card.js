@@ -15,8 +15,8 @@ export default function Card(props) {
                 </div>
 
                 <div className='card-text'>
-                    <h4>name:{card.name}</h4>
-                    <h4>price: ${card.price}</h4>
+                    <h4>{card.name}</h4>
+                    <h4> ${card.price}</h4>
 
                         <div className='tags'>
                             <ul className='tags-list'>
