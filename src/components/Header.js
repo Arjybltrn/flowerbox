@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className='header'>
         <h1>flowerbox.</h1>
-        <h3>for all your floral needs</h3>
+        <h3>FOR ALL YOUR FLORAL NEEDS</h3>
     </div>
   )
 }

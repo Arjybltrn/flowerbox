@@ -5,8 +5,8 @@ import data from '../data'
 export default function Card(props) {
     console.log("this is props:", props)
   return (
-    <div className='card-container'>
-    <div style={{ width: "18rem" }}>
+   
+    <div className='card-container' style={{ width: "18rem" }}>
         {data.map((card, index) => (
             <div className="card" key={index}>
 
@@ -27,10 +27,12 @@ export default function Card(props) {
                         </div>
                 </div>        
             </div>
+            
     
         ))}
     </div>
-    </div>
+
+    
   )
   
 }
