@@ -6,6 +6,7 @@ function Footer() {
     <div className='footer'>
         <div>
         <table>
+            <tbody>
             <tr>
                 <td>
                     <img className="footer-logo" src="https://i.imgur.com/KxfWH9J.png" alt='...' />
@@ -16,6 +17,7 @@ function Footer() {
                     <span className='span'>FLOWERBOX / EST 2023 </span>
                 </td>
             </tr>
+            </tbody>
         </table>    
         </div>   
        

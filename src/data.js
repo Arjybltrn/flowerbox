@@ -33,7 +33,7 @@ export default [
 		name: 'loves-me-loves-me-knots',
 		image: 'https://i.imgur.com/SaTbTEx.png',
 		price: 20,
-		tags: ['mixed', 'gerbera daisy', 'mini bouguet', 'for fun'],
+		tags: ['mixed', 'gerbera daisy', 'mini bouquet', 'for fun'],
 	},
 	{
 		name: 'hiya, spring',

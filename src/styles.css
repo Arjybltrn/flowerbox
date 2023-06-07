@@ -76,6 +76,7 @@ ul {
 .card:hover {
     background-color:rgb(145,178,185);
     cursor: pointer;
+    color: rgb(245,245,245);
 
 }
 
@@ -182,4 +183,20 @@ li:hover {
 
 .cs , .info {
     padding-top: 50px;
+}
+
+.tags-list li{
+    display: inline;
+    border: 1px solid rosybrown;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+    margin-top: 2px;
+    padding-top: 2px;
+    font-size: 10px;
+    
+}
+
+.tags-list {
+    display: inline;
 }
