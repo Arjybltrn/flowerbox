@@ -6,15 +6,6 @@ import './App.css';
 import data from "./data"
 
 function App(props) {
-  // const cards = data.map((e,i) => {
-  //   return (
-  //     <Card key={i}
-  //           img={e.image}
-  //           name={e.name}
-  //           price={e.price}
-  //           tags={e.tags} />
-  //   )
-  // })
   return (
     <div className="App">
       <Nav/>

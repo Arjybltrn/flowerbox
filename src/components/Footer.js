@@ -5,11 +5,22 @@ function Footer() {
   return (
     <div className='footer'>
         <div>
-            <img className="footer-logo" src="https://i.imgur.com/KxfWH9J.png" alt='...' />
-            <span>FLOWERBOX / EST 2023 </span>
-        </div>
+        <table>
+            <tr>
+                <td>
+                    <img className="footer-logo" src="https://i.imgur.com/KxfWH9J.png" alt='...' />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span className='span'>FLOWERBOX / EST 2023 </span>
+                </td>
+            </tr>
+        </table>    
+        </div>   
+       
 
-        <div>
+        <div className='cs'>
             <h2>customer service</h2>
                 <ul>
                     <li>SATISFACTION COMMITMENT</li>
@@ -19,7 +30,7 @@ function Footer() {
                 </ul>
         </div>
 
-        <div>
+        <div className='info'>
             <h2>flowerbox</h2>
                 <ul>
                     <li>TERMS OF SERVICE</li>
