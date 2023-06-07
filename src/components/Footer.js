@@ -3,9 +3,9 @@ import '../styles.css'
 
 function Footer() {
   return (
-    <div>
+    <div className='footer'>
         <div>
-            <img src="https://i.imgur.com/KxfWH9J.png" alt='...' />
+            <img className="footer-logo" src="https://i.imgur.com/KxfWH9J.png" alt='...' />
             <span>FLOWERBOX / EST 2023 </span>
         </div>
 
